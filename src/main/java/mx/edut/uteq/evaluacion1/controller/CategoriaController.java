@@ -57,7 +57,6 @@ public class CategoriaController {
 
             CategoriaRequisito cr = new CategoriaRequisito();
             cr.setRequisitoId(idRequisito);
-            // No pongas categoriaId, JPA lo maneja con @JoinColumn y cascade
 
             categoria.getCategoriasTipo().add(cr);
 
